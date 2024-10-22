@@ -1,16 +1,24 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Roboto-MediumItalic.ttf");
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
+
 }
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto";
   }
   
   .product-container {
     display: flex;
    justify-content: center;
     column-gap: 20px;
-    width: 90%;
+    width: 70%;
     margin: auto;
     margin-top: 20px;
     border: 1px solid black;
