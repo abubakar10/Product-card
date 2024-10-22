@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="product-container">
+    <div class="thumbnails">
+        <div><img class="thumbnail" src="./img 1.jpg" alt="Thumbnail 1"></div>
+        <div><img class="thumbnail" src="./img2.jpg" alt="Thumbnail 2"></div>
+        <div><img class="thumbnail" src="./img3.jpg" alt="Thumbnail 3"></div>
+      </div>
+    <div class="image-gallery">
+      <img id="main-image" src="./img 1.jpg" alt="Product Image">
+    </div>
+    
+    <div class="product-details">
+      <h3 id="brand"></h3>
+      <h1 id="title"></h1>
+      <p id="description"></p>
+      <div class="price-container">
+        <span id="discount-price" class="discount-price"></span><br>
+        <span id="original-price" class="original-price"></span>
+      </div>
+      <div class="sizes">
+        <label>Choose Size:</label>
+        <div id="size-options"></div>
+      </div>
+      <button id="add-to-bag-btn">Add to Bag</button>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
